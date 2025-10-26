@@ -1,9 +1,12 @@
 .assine {
 	background: #e7e4d8;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .assine-info h2 {
 	font-size: 2.25em;
+	font-weight: bold;
 }
 
 .assine-info p {
@@ -15,12 +18,21 @@
 	display: none;
 }
 
+.assine form {
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
 .assine input {
 	border: 3px solid #252525;
 	background: none;
 	font-size: 1.5em;
 	font-style: italic;
 	font-family: Georgia, serif;
+	align-self: flex-start;
+	padding: 10px;
 }
 
 .assine button {
@@ -31,4 +43,6 @@
 	font-size: 1.5em;
 	color: #fff;
 	cursor: pointer;
+	align-self: flex-start;
+	padding: 13px;
 }
